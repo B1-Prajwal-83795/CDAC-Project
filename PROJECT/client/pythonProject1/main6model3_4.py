@@ -99,7 +99,7 @@ def predict():
     }
 
     # load the model from model.pkl file
-    with open('./model3_4.pkl', 'rb') as file:
+    with open('./model3_4_.pkl', 'rb') as file:
         model = pickle.load(file)
 
     # get the prediction using model
